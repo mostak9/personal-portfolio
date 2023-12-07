@@ -21,7 +21,33 @@ function NavList() {
           href="#"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
-          Pages
+          Home
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-medium"
+      >
+        <a
+          href="#about"
+          className="flex items-center hover:text-blue-500 transition-colors"
+        >
+          About
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-medium"
+      >
+        <a
+          href="#projects"
+          className="flex items-center hover:text-blue-500 transition-colors"
+        >
+          Projects
         </a>
       </Typography>
       <Typography
@@ -34,7 +60,7 @@ function NavList() {
           href="#"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
-          Account
+          Blog
         </a>
       </Typography>
       <Typography
@@ -47,20 +73,7 @@ function NavList() {
           href="#"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium"
-      >
-        <a
-          href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
-        >
-          Docs
+          Contact
         </a>
       </Typography>
     </ul>
@@ -81,8 +94,8 @@ const Navigation = () => {
     };
   }, []);
   return (
-    <div className=" max-w-7xl mx-auto md:hidden">
-      <Navbar className=" px-6 py-3 shadow-none">
+    <div className=" max-w-7xl mx-auto lg:hidden sticky top-0 z-10">
+      <Navbar className=" px-6 py-3 shadow-none ">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"

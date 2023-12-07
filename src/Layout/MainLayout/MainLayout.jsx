@@ -7,11 +7,11 @@ const MainLayout = () => {
     return (
         <div>
             <Navigation/>
-            <div className="hidden md:flex items-center gap-3 ">
+            <div className="hidden lg:flex items-center">
             <SideBar/>
             <Outlet/>
             </div>
-            <div className="md:hidden">
+            <div className="lg:hidden">
                 <Outlet/>
             </div>
         </div>
