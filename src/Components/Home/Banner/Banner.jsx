@@ -4,7 +4,7 @@ import { Button } from "@material-tailwind/react";
 import { TypeAnimation } from "react-type-animation";
 import { FaDownload, FaPhoneAlt } from "react-icons/fa";
 import bg from '../../../assets/background.svg'
-import { useState } from "react";
+
 
 const Banner = () => {
   
