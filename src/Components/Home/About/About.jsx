@@ -26,7 +26,7 @@ const About = () => {
             <p className=" flex items-center gap-1"><FaLocationDot className="text-green-500 text-2xl"/> Rangpur, Bangladesh</p>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 mx-auto">
             {/* <Lottie animationData={aboutAnimation}/> */}
             <img src={roundProfile} className="w-1/2 mx-auto rounded-full shadow-xl shadow-green-500" alt="" />
         </div>
