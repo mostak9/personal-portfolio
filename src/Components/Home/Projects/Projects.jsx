@@ -10,11 +10,12 @@ import img1 from "../../../assets/projects/projects.png";
 import img2 from "../../../assets/projects/project-2.png";
 import img3 from "../../../assets/projects/project-3.png";
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
+import bg from '../../../assets/bg_project.jpg'
 
 const Projects = () => {
   return (
-    <div id="projects" className="py-8">
-      <div className="max-w-5xl mx-auto">
+    <div id="projects" className="bg-fixed bg-center bg-cover py-12" style={{backgroundImage: `url(${bg})`}}>
+      <div className="max-w-5xl mx-5 md:mx-auto ">
         <Title text="My Projects" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-5 md:px-0">
