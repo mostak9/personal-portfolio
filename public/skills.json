@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "skill": "React",
+    "image": "./icons/react-2.svg"
+  },
+  {
+    "id": 2,
+    "skill": "Node.js",
+    "image": "./icons/node-js-svgrepo-com.svg"
+  },
+  {
+    "id": 3,
+    "skill": "MongoDB",
+    "image": "./icons/mongo-svgrepo-com.svg"
+  },
+  {
+    "id": 4,
+    "skill": "Express.js",
+    "image": "./icons/express-svgrepo-com.svg"
+  },
+  {
+    "id": 12,
+    "skill": "JavaScript",
+    "image": "./icons/logo-javascript.svg"
+  },
+  {
+    "id": 5,
+    "skill": "Material UI",
+    "image": "./icons/material-ui-svgrepo-com.svg"
+  },
+  {
+    "id": 6,
+    "skill": "Tailwind CSS",
+    "image": "./icons/tailwind-svgrepo-com.svg"
+  },
+  {
+    "id": 7,
+    "skill": "DaisyUI",
+    "image": "./icons/daisy-svgrepo-com.svg"
+  },
+  {
+    "id": 8,
+    "skill": "JWT",
+    "image": "./icons/jwt-3.svg"
+  },
+  {
+    "id": 9,
+    "skill": "Firebase",
+    "image": "./icons/firebase-1.svg"
+  },
+  {
+    "id": 10,
+    "skill": "HTML",
+    "image": "./icons/html-1.svg"
+  },
+  {
+    "id": 11,
+    "skill": "CSS3",
+    "image": "./icons/css-3.svg"
+  },
+  {
+    "id": 13,
+    "skill": "C++",
+    "image": "./icons/c-1.svg"
+  },
+  {
+    "id": 14,
+    "skill": "C",
+    "image": "./icons/c.svg"
+  },
+  {
+    "id": 15,
+    "skill": "Git",
+    "image": "./icons/git-icon.svg"
+  },
+  {
+    "id": 16,
+    "skill": "GitHub",
+    "image": "./icons/github-icon-1.svg"
+  }
+]
