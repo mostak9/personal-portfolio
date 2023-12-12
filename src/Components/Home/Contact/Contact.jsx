@@ -5,12 +5,10 @@ import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { toast } from "sonner";
 
-
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    
 
     emailjs
       .sendForm(
@@ -20,11 +18,9 @@ const Contact = () => {
         import.meta.env.VITE_USER_ID
       )
       .then((result) => {
-        
-          toast.success("Email sent successfully.");
-          form.current.reset();
-          console.log(result);
-       
+        toast.success("Email sent successfully.");
+        form.current.reset();
+        console.log(result);
       })
       .catch((err) => console.log(err));
   };
@@ -74,7 +70,7 @@ const Contact = () => {
               label="Message"
               required
             />
-            <Button  type="submit" className="w-full bg-green-500">
+            <Button type="submit" className="w-full bg-green-500">
               Send Message
             </Button>
           </div>

@@ -18,7 +18,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#home"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Home
@@ -57,10 +57,10 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#skills"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
-          Blog
+          Skills
         </a>
       </Typography>
       <Typography
@@ -70,7 +70,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#contact"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Contact
@@ -99,7 +99,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
-            href="#"
+            href="#home"
             variant="h6"
             className="mr-4 cursor-pointer py-1.5"
           >
